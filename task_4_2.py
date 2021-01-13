@@ -5,3 +5,6 @@
 Результат: [12, 44, 4, 10, 78, 123].
 '''
 
+my_list = [300, 2, 12, 44, 1, 1, 4, 10, 7, 1, 78, 123, 55]
+new_list = [x for i in my_list if i[len(my_list)] > i[len(my_list)-1]]
+print(new_list)
