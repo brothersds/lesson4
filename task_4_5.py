@@ -5,3 +5,6 @@
 Подсказка: использовать функцию reduce().
 '''
 
+from functools import reduce
+
+print(reduce(lambda x, y: x * y, range(100, 1000, 2)))
